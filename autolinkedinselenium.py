@@ -43,7 +43,7 @@ browser.find_element_by_xpath('/html/body/div[3]/div/div/div[2]/div/div/div[1]/d
 
 
 #Para que a postagem também seja automatizada, basta adicionar:  || To also automate the posting action itself, just add this line: 
-#browser.find_element_by_xpath('/html/body/div[3]/div/div/div[2]/div/div/div[2]/div[2]/div[3]/button').click
+#browser.find_element_by_xpath('/html/body/div[3]/div/div/div[2]/div/div/div[2]/div[2]/div[3]/button').click()
 
 #Para que o browser feche depois de rodar o script || To close the browser after the script has ended
 #browser.quit()
